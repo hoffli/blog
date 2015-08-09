@@ -1,10 +1,10 @@
 # Site settings
 title: Peter Hoffler
-header-img: img/home-bg.jpg
+header-img: img/post-bg-05.jpg
 email: peterhoffler@gmail.com
 description: "Nur ein Blog."
 baseurl: "/blog"
-url: "http://yourdomain.com"
+url: "http://github.io"
 twitter_username: hoffli
 github_username:  hoffli
 facebook_username:  peterhoffler
