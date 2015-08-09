@@ -3,7 +3,7 @@ layout:     post
 title:      "Proxy/VPN und Torrent"
 date:       2015-08-09 8:10:00
 author:     "hoffli"
-header-img: "http://i1381.photobucket.com/albums/ah227/peterhoffler/Pics/vpn_harmonie4_zps64bcoprh.jpg"
+header-img: "img/post-bg-04.jpg"
 ---
 
 <p>Von einem <a href="https://proxylisten.wordpress.com/2015/08/08/proxy-und-torrent/">Wordpress-Blog</a>.</p>
