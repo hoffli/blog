@@ -22,11 +22,15 @@ ist plötzlich sichtbar.</p>
 
 <h2 class="section-heading">Die Lösung</h2>
 <p>Man muss natürlich entweder mit VPN surfen (z.B. <a href="http://www.vpnanonymsurfen.de/hidemyass-testbericht/">Hidemyass</a> oder so), was alle Verbindungen und Datenflüsse im VPN-Tunnel hält. 
-Man kann das gleich im Terminal anschauen, unter ifconfig sollte es "tun0" geben - ein "Tunneling Device".
+Man kann das gleich im Terminal anschauen, unter ifconfig sollte es "tun0" geben - ein "Tunneling Device".</p>
 
-Mit Proxy muss man die Konfiguration des Torrentprograms anpassen. (<a href="https://www.privateinternetaccess.com/forum/index.php?p=/discussion/434/utorrent-install-instructions-for-proxy-proxychecker">Anleitung</a>)
+<img src="http://i1381.photobucket.com/albums/ah227/peterhoffler/Linux/VPNTunnelingDevice_zpsq8df4ydz.png">
 
-Und dann das nützliche Tool. "<a href="http://torguard.net/checkmytorrentipaddress.php">Check my torrent IP address</a>" - 
+<p>
+Mit Proxy muss man die Konfiguration des Torrentprograms anpassen. (<a href="https://www.privateinternetaccess.com/forum/index.php?p=/discussion/434/utorrent-install-instructions-for-proxy-proxychecker">Anleitung</a>)</p>
+
+<p>
+Und endlich das nützliche Tool. "<a href="http://torguard.net/checkmytorrentipaddress.php">Check my torrent IP address</a>" - 
 Man kann einfach konfigurieren welche IP Adresse öffentlich ist. 
 Dann muss es man schon merken falls Fehler auftreten. 
 </p>
