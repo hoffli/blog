@@ -1,0 +1,35 @@
+---
+layout:     post
+title:      "Proxy/VPN und Torrent"
+date:       2015-08-09 8:10:00
+author:     "hoffli"
+header-img: "img/post-bg-02.jpg"
+---
+
+<p>Von einem <a href="https://proxylisten.wordpress.com/2015/08/08/proxy-und-torrent/">Wordpress-Blog</a>.</p>
+
+
+<h2 class="section-heading">Das Problem</h2>
+<p>Ich sollte darüber wahrscheinlich nicht sprechen aber viele von uns nutzen Torrent zum Downloaden Filme die wir nicht bezahlen wollen.
+Das ist Strafbar, vor allem unsere IDA's (oder schon ISP) merken das immer fast gleich. 
+Die Sache ist das unsere IP-Adresse für die Seeders sichtbar ist, es ist aber schon ganz einfach auch für andere 
+den Zugang zum Swarm zu kriegen. Sobald unsere IP in einem illegalen Download oder Upload engagiert ist,
+haben wir Probleme.</p>
+<p>Das heißt auch wenn es keine reale IP ist, sondern eine Proxyserveradresse oder wenn wir mit VPN surfen,
+können wir nicht einmal strafbar werden. Zumindest solange die Verbindung stabil ist und geht nicht down währen wir 
+an dem Downloaden sind. Und das ist die Sache - es kommt immer vor das wir die Verindung verlieren und unsere reale IP
+ist plötzlich sichtbar.</p>
+
+<h2 class="section-heading">Die Lösung</h2>
+<p>Man muss natürlich entweder mit VPN surfen (z.B. <a href="http://www.vpnanonymsurfen.de/hidemyass-testbericht/">Hidemyass</a> oder so), was alle Verbindungen und Datenflüsse im VPN-Tunnel hält. 
+Man kann das gleich im Terminal anschauen, unter ifconfig sollte es "tun0" geben - ein "Tunneling Device".
+
+Mit Proxy muss man die Konfiguration des Torrentprograms anpassen. (<a href="https://www.privateinternetaccess.com/forum/index.php?p=/discussion/434/utorrent-install-instructions-for-proxy-proxychecker">Anleitung</a>)
+
+Und dann das nützliche Tool. "<a href="http://torguard.net/checkmytorrentipaddress.php">Check my torrent IP address</a>" - 
+Man kann einfach konfigurieren welche IP Adresse öffentlich ist. 
+Dann muss es man schon merken falls Fehler auftreten. 
+</p>
+
+
+<hr> 
